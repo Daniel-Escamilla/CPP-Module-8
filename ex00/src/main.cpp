@@ -6,7 +6,7 @@
 /*   By: daniel-escamilla <daniel-escamilla@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/14 18:49:33 by daniel-esca       #+#    #+#             */
-/*   Updated: 2025/06/14 19:34:41 by daniel-esca      ###   ########.fr       */
+/*   Updated: 2025/06/16 09:07:56 by daniel-esca      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int main()
 	std::vector<int>::iterator result;
 	try
 	{
-		result = easyfind(container, 12);
+		result = easyfind(container, 2);
 		std::cout << *result << std::endl;
 	}
 	catch(const std::exception& e)

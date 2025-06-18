@@ -6,7 +6,7 @@
 /*   By: daniel-escamilla <daniel-escamilla@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 10:09:00 by daniel-esca       #+#    #+#             */
-/*   Updated: 2025/06/18 10:44:12 by daniel-esca      ###   ########.fr       */
+/*   Updated: 2025/06/18 12:20:31 by daniel-esca      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,9 @@ class Span
 		
 		unsigned int	shortestSpan(void);
 		unsigned int	longestSpan(void);
+
+		void	addRange(std::vector<int>::iterator begin, std::vector<int>::iterator end);
+
 };
 
 #endif // SPAN_HPP

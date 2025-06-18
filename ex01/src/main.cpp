@@ -6,7 +6,7 @@
 /*   By: daniel-escamilla <daniel-escamilla@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 10:08:56 by daniel-esca       #+#    #+#             */
-/*   Updated: 2025/06/18 11:23:54 by daniel-esca      ###   ########.fr       */
+/*   Updated: 2025/06/18 12:25:24 by daniel-esca      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,13 @@
 
 int main()
 {
-	Span list(3);
+	Span list(7);
+	int arr[] = {12, 34, 21, 1, 432, 7654321};
+	std::vector<int> numbers(arr, arr + 6);
 
 	try
 	{
-		list.addNumber(std::numeric_limits<int>::max());
-		list.addNumber(std::numeric_limits<int>::min());
+		list.addRange(numbers.begin(), numbers.end());
 
 		std::cout << list.shortestSpan() << std::endl;
 		std::cout << list.longestSpan() << std::endl;
@@ -28,6 +29,5 @@ int main()
 	{
 		std::cout << e.what() << std::endl;
 	}
-	
 	return 0;
 }

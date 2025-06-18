@@ -3,13 +3,11 @@
 /*                                                        :::      ::::::::   */
 /*   MutantStack.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: daniel-escamilla <daniel-escamilla@stud    +#+  +:+       +#+        */
+/*   By: descamil <descamil@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/18 12:37:15 by daniel-esca       #+#    #+#             */
-/*   Updated: 2025/06/18 12:37:16 by daniel-esca      ###   ########.fr       */
+/*   Updated: 2025/06/18 17:05:37 by descamil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/MutantStack.hpp"
-
-

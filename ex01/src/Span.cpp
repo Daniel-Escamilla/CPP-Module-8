@@ -6,7 +6,7 @@
 /*   By: daniel-escamilla <daniel-escamilla@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 10:08:50 by daniel-esca       #+#    #+#             */
-/*   Updated: 2025/06/18 11:19:25 by daniel-esca      ###   ########.fr       */
+/*   Updated: 2025/06/18 12:21:27 by daniel-esca      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,4 +86,10 @@ unsigned int	Span::longestSpan(void)
 			longest = diff;
 	}
 	return (longest);
+}
+
+void	Span::addRange(std::vector<int>::iterator begin, std::vector<int>::iterator end)
+{
+	for (; begin != end; begin++)
+		addNumber(*begin);
 }
